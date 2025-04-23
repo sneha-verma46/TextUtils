@@ -23,9 +23,6 @@ function App() {
       document.body.style.color = "white";
       showAlert("Dark Mode has been Enabled", "success");
       document.title = "TextUtils - Dark Mode";
-
-      // setInterval(() => { document.title = "You have been traced" }, 1000);
-      // setInterval(() => { document.title = "Yeahhh" }, 2000);
     } else {
       setMode("light");
       document.body.style.backgroundColor = "white";
